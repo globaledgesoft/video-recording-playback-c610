@@ -1,4 +1,4 @@
-# Project: Develop a 4k/1080@ 30fps video recording/playback for c610
+# Development of a 4k/1080@ 30fps video recording/playback for c610
 
 ## dependencies :
    - adb (android debugger bridge)
