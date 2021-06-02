@@ -66,6 +66,7 @@ int main(int argc, char *argv[])
 	caps = gst_caps_new_simple("video/x-h264", "format", G_TYPE_STRING, "NV12", "width", G_TYPE_INT, config.width, "height", G_TYPE_INT, config.height, "framerate", GST_TYPE_FRACTION, FPS,1,NULL);
 
 	g_object_set (source, "name", "qmmf", NULL);
+	g_object_set(source, "ldc",TRUE,  NULL);
 	g_object_set(filter, "caps", caps, NULL);
 	gst_caps_unref(caps);
 

@@ -10,18 +10,16 @@
 
 ## To setup cross compile environment:
 
-   - Download the Application SDK from below url:
-      -  https://thundercomm.s3.ap-northeast-1.amazonaws.com/shop/doc/1593776185472315/Turbox-C610_Application-SDK_v1.0.tar.gz
-  
-   - Unpack the sdk 
-       ```
-        tar -xzvf Turbox-C610_Application-SDK_v1.0.tar.gz
-       ```
+ - To Install the Application SDK,  download the sdk using  url given in the section 2 of the below document 
+  ```
+    “[TC_C610LE_23110]_TurboX C610 OK_Application SDK User Manual_V1.0.pdf“.
+  ```
+    
+  - After downloading, unpack the application sdk and  execute the below script file it will ask the default target directory, press enter and type 'Y'
+    ```
+    /# ./oecore-x86_64-armv7ahf-neon-toolchain-nodistro.0.sh
+    ```
 
-   - Execute the below script file it will ask the default target directory, press enter and type 'Y'
-       ```
-       ./oecore-x86_64-armv7ahf-neon-toolchain-nodistro.0.sh
-       ```
    - This complete the environment setup.
 
 
